@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("./img/pexels-maxyne-barcel-10402282\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.transparent-bg {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.434);
+}
+/* Header style */
+
+header {
+  font-size: large;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 80px;
+}
+
+.nav-links {
+  display: flex;
+  align-self: center;
+  list-style: none;
+}
+.nav-links li {
+  margin: 20px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #f6e200;
+}
+.nav-btn,
+.rest-btn {
+  font-size: large;
+
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: #ff0000;
+  background-color: #ff0000;
+}
+
+/* body content css */
+.rest-head-content {
+  height: 45vh;
+  display: flex;
+  align-items:end;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+  color: #f6e200;
+}
+.rest-btn-div{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+.scroll-img-logo{
+ 
+position: absolute;
+bottom: 20px;
+right: 20px;
+}
+.scroll-img-logo img{
+ width: 110px;
+}
